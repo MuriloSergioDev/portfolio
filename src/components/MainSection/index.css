@@ -1,0 +1,23 @@
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: start !important;
+    background-color: red;
+}
+
+.menu-content{
+    background-color: green;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-content{
+    background-color: transparent;
+    height: 100vh;
+    width: 100%;
+}
+
+.transition-effect {
+    transition: all 0.5s ease;
+}
